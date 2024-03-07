@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.back{
+    background-image: url(../src/assets/Hero.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.back1{
+    background-image: url(../src/assets/Background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.back12{
+    background-image: url(../src/assets/Background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.ba{
+    background-image: url(../src/assets/bac.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.bc{
+    background-image: url(../src/assets/bc.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.bc1{
+    background-image: url(../src/assets/Mask\ group.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.bc2{
+    background-image: url(../src/assets/Im.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.bc3{
+    background-image: url(../src/assets/Imac.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.bc4{
+    background-image: url(../src/assets/Ima.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.bc5{
+    background-image: url(../src/assets/ii.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+
+.slick-arrow:before {
+    color: red;
+    font-size: 50px;
+}
+
+.slick-prev {
+    top: -60px;
+    left: 800px;
+}
+
+.slick-next {
+    right: 40px;
+    top: -60px;
+}
+
+.slick-arrow {
+    padding: 10px;
+    font-size: 30px;
+}
+
+#blogs-slider .slick-next {
+    right: 58px;
+    top: -60px;
+}
+
+#blogs-slider .slick-prev {
+    top: -60px;
+    left: 1350px;
+}
+
+@media only screen and (max-width: 600px) {
+    .slick-arrow:before {
+        display: none;
+    }
+
+    .slick-next {
+        right: 0px;
+        top: 0px;
+        display: none;
+    }
+    
+    .slick-next {
+        right: 0px;
+        top: 0px;
+        display: none;
+    }  
+}

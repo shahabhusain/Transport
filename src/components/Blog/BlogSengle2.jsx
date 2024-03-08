@@ -27,7 +27,7 @@ const BlogSengle2 = ({ id }) => {
             Morbi quis justo velit. Duis semper lacus scelerisque, aliquam leo
             quis, porttitor leo Fusce lectus ex pretium...
           </p>
-          <p  className=" bg-[#091242] py-12 mt-4 px-6 text-center text-white text-[22px] font-medium">
+          <p  className=" bg-[#091242] py-12 mt-4 italic px-6 text-center text-white text-[22px] font-medium">
             “Digitization within transport and logistics means seamless service
             to our customers, visibility in the supply chain, and driving a more
             efficient business.”

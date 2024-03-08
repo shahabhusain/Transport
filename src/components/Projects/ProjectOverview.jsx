@@ -1,21 +1,28 @@
-import React from 'react'
-import main from '../../assets/10.png'
-import main1 from '../../assets/11.png'
-import main2 from '../../assets/12.png'
-import main3 from '../../assets/13.png'
-import main4 from '../../assets/14.png'
-import main5 from '../../assets/15.png'
+import React from "react";
+import { IoOpenOutline } from "react-icons/io5";
+import { Link } from "react-router-dom";
+import { ProjectItem } from "../../Data/Constant"; 
+
 const ProjectOverview = () => {
   return (
-    <div className=' grid grid-cols-3 gap-12 w-[80%] mx-auto mt-32'>
-        <img className=' cursor-pointer' src={main} alt="" />
-        <img className=' cursor-pointer' src={main1} alt="" />
-        <img className=' cursor-pointer' src={main2} alt="" />
-        <img className=' cursor-pointer' src={main3} alt="" />
-        <img className=' cursor-pointer' src={main4} alt="" />
-        <img className=' cursor-pointer' src={main5} alt="" />
+    <div className="grid grid-cols-3 gap-12 w-[80%] mx-auto mt-32">
+      {ProjectItem.map((item) => (
+        <div
+          className="container hover:scale-[1.1] transition-all duration-300 ease-in-out"
+          key={item.id}
+        >
+          <img className="cursor-pointer" src={item.img} alt="" />
+          <div className="overlay">
+            <div className="content">
+              <Link to={`/project-single/${item.id}`} className="text-[42px]">
+                <IoOpenOutline />
+              </Link>
+            </div>
+          </div>
+        </div>
+      ))}
     </div>
-  )
-}
+  );
+};
 
-export default ProjectOverview
+export default ProjectOverview;

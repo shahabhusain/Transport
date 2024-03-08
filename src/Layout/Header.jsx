@@ -95,8 +95,8 @@ const Header = () => {
               <Link
                 onClick={() => toggleMenuItem(index)}
                 to={item.link}
-                className={`text-md text-white cursor-pointer ${
-                  openMenuItems[index] ? "" : " text-yellow-400"
+                className={`text-md  cursor-pointer ${
+                  openMenuItems[index] ? "border-b-yellow-500 text-yellow-500 font-bold border-b-[2px] " : " text-white"
                 }`}
               >
                 {item.name}{" "}

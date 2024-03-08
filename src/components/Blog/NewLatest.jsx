@@ -1,76 +1,21 @@
-import React from 'react'
-import main from "../../assets/Pho.png";
-import calender from "../../assets/Date.png";
+import React from "react";
+import { Link } from "react-router-dom";
+import { newItem } from "../../Data/Constant";
 const NewLatest = () => {
-    const newItem = [
-        {
-          img: main,
-          img1: calender,
-          title: "Inland freight a worthy solution for your business",
-          subtitle:
-            "We are dedicated in creating added value for our customers by implementing modern technology in our work.",
-          subtitle1:
-            "Urgent transport solutions Reliable & experienced staffs Urgent transport solutions Reliable & experienced staffs",
-        },
-    
-        {
-          img: main,
-          img1: calender,
-          title: "Inland freight a worthy solution for your business",
-          subtitle:
-            "We are dedicated in creating added value for our customers by implementing modern technology in our work.",
-          subtitle1:
-            "Urgent transport solutions Reliable & experienced staffs Urgent transport solutions Reliable & experienced staffs",
-        },
-    
-        {
-          img: main,
-          img1: calender,
-          title: "Inland freight a worthy solution for your business",
-          subtitle:
-            "We are dedicated in creating added value for our customers by implementing modern technology in our work.",
-          subtitle1:
-            "Urgent transport solutions Reliable & experienced staffs Urgent transport solutions Reliable & experienced staffs",
-        },
-
-        {
-            img: main,
-            img1: calender,
-            title: "Inland freight a worthy solution for your business",
-            subtitle:
-              "We are dedicated in creating added value for our customers by implementing modern technology in our work.",
-            subtitle1:
-              "Urgent transport solutions Reliable & experienced staffs Urgent transport solutions Reliable & experienced staffs",
-          },
-
-          {
-            img: main,
-            img1: calender,
-            title: "Inland freight a worthy solution for your business",
-            subtitle:
-              "We are dedicated in creating added value for our customers by implementing modern technology in our work.",
-            subtitle1:
-              "Urgent transport solutions Reliable & experienced staffs Urgent transport solutions Reliable & experienced staffs",
-          },
-
-          {
-            img: main,
-            img1: calender,
-            title: "Inland freight a worthy solution for your business",
-            subtitle:
-              "We are dedicated in creating added value for our customers by implementing modern technology in our work.",
-            subtitle1:
-              "Urgent transport solutions Reliable & experienced staffs Urgent transport solutions Reliable & experienced staffs",
-          },
-      ];
-    
   return (
-    <div className=' w-[80%] mx-auto'>
-         {newItem.map((item) => (
-          <>
+    <div className=" w-[80%] mx-auto">
+      {newItem.map((item) => (
+        <>
           <div className=" flex items-center gap-12 mt-16">
             <div className=" flex gap-4 ">
-              <img src={item.img} alt="" />
+              <div className="container">
+                <img src={item.img} alt="" />
+                <div className="overlay">
+                  <div className="content">
+                    <Link to={`/blog-single/${item.id}`}>Read More</Link>
+                  </div>
+                </div>
+              </div>
               <div className=" flex gap-5">
                 <div>
                   <img className="" src={item.img1} alt="" />
@@ -85,13 +30,12 @@ const NewLatest = () => {
                 <p>{item.subtitle1}</p>
               </div>
             </div>
-            
           </div>
-           <div className=" h-[2px] w-full bg-[#c4c3c3] mt-4"></div>
-           </>
-        ))}
+          <div className=" h-[2px] w-full bg-[#c4c3c3] mt-4"></div>
+        </>
+      ))}
     </div>
-  )
-}
+  );
+};
 
-export default NewLatest
+export default NewLatest;

@@ -42,9 +42,9 @@ const Logistics = () => {
     <div className=' w-[80%] mx-auto'>
         <div className=' flex flex-col items-center justify-center mt-32'>
         <h2 className='text-[16px] font-medium bg-[#09124228] py-2 px-2 w-fit  border-l-[6px] border-yellow-500 text-black'>What We Do</h2>
-        <h1 className=' text-[33px] font-bold'>Our Logistics Services</h1>
+        <h1 className=' md:text-[33px] text-[25px] font-bold'>Our Logistics Services</h1>
         </div>
-       <div className=' grid grid-cols-3 gap-12 mt-16'>
+       <div className=' grid md:grid-cols-3 grid-cols-1 gap-12 mt-16'>
         {
             logicItem.map((item)=>(
                 <div>

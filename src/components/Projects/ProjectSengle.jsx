@@ -8,17 +8,17 @@ const ProjectSengle = ({ id }) => {
   return (
     <>
       <div className="bc1 h-[522px]">
-        <div className="pt-60 pl-32">
+        <div className="md:pt-60 pt-56 md:pl-32 pl-4">
           <h2 className="text-[16px] font-medium bg-[#09124228] py-2 px-2 w-fit border-l-[6px] border-yellow-500 text-white">
             Warehouse Transportation
           </h2>
-          <h1 className="font-bold text-[44px] text-white">
+          <h1 className="font-bold md:text-[44px] text-[33px] text-white">
             Air Cargo Transportation
           </h1>
         </div>
       </div>
       <div className=" mt-20">
-        <div className=" flex items-center gap-14 ml-60 ">
+        <div className=" flex flex-col md:flex-row md:items-center items-start gap-14 md:ml-60 mx-4 ">
           <img
             className=" w-[666px] h-[344px]"
             src={selectedProject?.img}
@@ -46,8 +46,8 @@ const ProjectSengle = ({ id }) => {
             </div>
           </div>
         </div>
-        <div className=" mt-12 mx-60">
-          <h1 className=" text-[55px] font-bold">Wharehouse Transportation</h1>
+        <div className=" mt-12 md:mx-60 mx-4">
+          <h1 className=" md:text-[55px] text-[40px] font-bold">Wharehouse Transportation</h1>
           <p>
             Duis semper lacus scelerisque, aliquam leo quis, porttitor leo.
             Etiam lobortis dapibus libero vel porttitor. Nulla tempor elit nec
@@ -95,8 +95,8 @@ const ProjectSengle = ({ id }) => {
           </div>
         </div>
 
-        <div className=" mx-60 mt-12">
-          <h1 className=" text-[55px] font-bold">Our Project Transportation</h1>
+        <div className=" md:mx-60 mx-4 mt-12">
+          <h1 className=" md:text-[55px] text-[40px] font-bold">Our Project Transportation</h1>
           <p className=" mt-4">
             Duis semper lacus scelerisque, aliquam leo quis, porttitor leo.
             Etiam lobortis dapibus libero vel porttitor. Nulla tempor elit nec

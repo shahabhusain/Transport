@@ -4,23 +4,23 @@ import icon from '../../assets/Ic1.png'
 import icon1 from '../../assets/Ic2.png'
 const Choose = () => {
   return (
-    <div className=' flex items-center justify-between w-[80%] mx-auto gap-12 mt-32'>
-        <img className=' w-[50%]' src={main} alt="" />
+    <div className=' flex flex-col md:flex-row items-center justify-between w-[80%] mx-auto gap-12 mt-32'>
+        <img className=' md:w-[50%]' src={main} alt="" />
         <div className=' flex flex-col gap-5'>
             <h2 className='text-[16px] font-medium bg-[#09124228] py-2 px-2 w-fit  border-l-[6px] border-yellow-500 text-black'>About Us</h2>
-            <h1 className=' text-[44px] font-bold'>Why Choose Us</h1>
+            <h1 className=' md:text-[44px] text-[33px] font-bold'>Why Choose Us</h1>
             <p>Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value proposition.</p>
             <div className=' flex items-center gap-4'>
                 <div>
                     <img src={icon} alt="" />
-                    <h1 className=' text-[22px] font-medium'>Our Vission</h1>
-                    <p>Leverage agile frameworks to provide a robust synopsis for strategy foster.</p>
+                    <h1 className=' md:text-[22px] text-[16px] font-medium'>Our Vission</h1>
+                    <p className=' text-[10px] md:text-[15px]'>Leverage agile frameworks to provide a robust synopsis for strategy foster.</p>
                 </div>
 
                 <div>
                     <img src={icon1} alt="" />
-                    <h1 className=' text-[22px] font-medium'>Estimate Shipping</h1>
-                    <p>Leverage agile frameworks to provide a robust synopsis for strategy foster.</p>
+                    <h1 className=' md:text-[22px] text-[16px] font-medium'>Estimate Shipping</h1>
+                    <p className=' text-[10px] md:text-[15px]'>Leverage agile frameworks to provide a robust synopsis for strategy foster.</p>
                 </div>
             </div>
         </div>

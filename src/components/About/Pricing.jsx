@@ -4,8 +4,8 @@ const Pricing = () => {
   return (
    <div className=' flex items-center justify-center flex-col mt-32 '>
     <h2 className='text-[16px] font-medium bg-[#09124228] py-2 px-2 w-fit  border-l-[6px] border-yellow-500 text-black '>Pricing</h2>
-    <h1 className=' text-[44px] font-bold'>OUr Best Pricing</h1>
-     <div className=' flex items-center justify-around mx-24 mt-16 '>
+    <h1 className=' md:text-[44px] text-[33px] font-bold'>Our Best Pricing</h1>
+     <div className=' flex flex-col md:flex-row items-center justify-around mx-24 mt-16 '>
       <div className=' bg-[#F4F4F4] py-24 px-20 flex flex-col gap-4'>
             <h1 className=' text-[16px] font-medium'>Basics</h1>
             <h2 className=''><span className=' text-[53px] font-bold'>$39</span>/month</h2>

@@ -21,21 +21,21 @@ const Call = () => {
   return (
     <div className="  bg-[#172363] pt-12 w-full ">
     <div className=" flex flex-col items-center  justify-center">
-      <div className=" w-[50%] flex flex-col gap-3">
-       <div className=' flex flex-col items-center justify-center gap-3'>
-       <h2 className="text-[16px] font-medium text-black bg-[#09124228] py-2 px-2 w-fit  border-l-[6px] border-yellow-500 text-white">
+      <div className=" md:w-[50%] mx-6  flex flex-col gap-3">
+       <div className=' flex flex-col md:items-center justify-center gap-3'>
+       <h2 className="text-[16px] font-medium  bg-[#09124228] py-2 px-2 w-fit  border-l-[6px] border-yellow-500 text-white">
           Contact
         </h2>
         <h1 className=" text-[33px] font-bold text-white">
           Get in touch with us
         </h1>
-        <p className=" text-white text-center">
+        <p className=" text-white md:text-center">
           Leverage agile frameworks to provide a robust synopsis for strategy
           foster collaborative thinking to further the overall value.
         </p>
        </div>
 
-      <div className=" flex  items-center">
+      <div className=" flex flex-col md:flex-row  md:items-center">
       {contact.map((item) => (
           <div className=" flex items-center gap-7">
             <img src={item.img} alt="" />
@@ -44,7 +44,7 @@ const Call = () => {
         ))}
       </div>
       </div>
-      <div className=" flex flex-col gap-3 w-[50%] mt-8">
+      <div className=" flex flex-col gap-3 md:w-[50%] mt-8">
         <div className=" grid grid-cols-2 gap-3">
           <input
             className=" bg-transparent border-[2px] border-[#4E5683] text-white py-3 px-4 rounded-sm"

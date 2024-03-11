@@ -44,13 +44,13 @@ const ExpertsTeam = () => {
           },
     ]
   return (
-    <div className=' grid grid-cols-3 gap-12 w-[80%] mx-auto mt-32'>
+    <div className=' grid md:grid-cols-3 grid-cols-1 gap-12 w-[80%] mx-auto mt-32'>
          {expertItem.map((item) => (
           <div className="">
-            <img src={item.img} alt="" />
-            <div className=" bg-[#1C1F35] py-4 pr-[12rem] w-fit">
+            <img className=' w-full' src={item.img} alt="" />
+            <div className=" bg-[#1C1F35] py-4 ">
               <div className=" pl-4">
-                <h1 className=" text-[22px] font-bold text-white">
+                <h1 className=" md:text-[22px] text-[18px]  whitespace-nowrap font-bold text-white">
                   {item.title}
                 </h1>
                 <h2 className=" text-white">{item.subtitle}</h2>

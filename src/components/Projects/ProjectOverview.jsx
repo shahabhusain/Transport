@@ -5,7 +5,7 @@ import { ProjectItem } from "../../Data/Constant";
 
 const ProjectOverview = () => {
   return (
-    <div className="grid grid-cols-3 gap-12 w-[80%] mx-auto mt-32">
+    <div className="grid md:grid-cols-3 grid-cols-1 gap-12 w-[80%] mx-auto mt-32">
       {ProjectItem.map((item) => (
         <div
           className="container hover:scale-[1.1] transition-all duration-300 ease-in-out"

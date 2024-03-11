@@ -6,7 +6,7 @@ const NewLatest = () => {
     <div className=" w-[80%] mx-auto">
       {newItem.map((item) => (
         <>
-          <div className=" flex items-center gap-12 mt-16">
+          <div className=" md:flex-row flex flex-col items-center gap-12 mt-16">
             <div className=" flex gap-4 ">
               <div className="container">
                 <img src={item.img} alt="" />
@@ -23,8 +23,8 @@ const NewLatest = () => {
                 <div className=" w-[2px] h-full bg-[#c4c3c3]"></div>
               </div>
             </div>
-            <div className=" flex flex-col gap-4 w-[40%]">
-              <h1 className=" text-[33px] font-medium">{item.title}</h1>
+            <div className=" flex flex-col gap-4 md:w-[40%]">
+              <h1 className=" md:text-[33px] text-[25px] font-medium">{item.title}</h1>
               <p>{item.subtitle}</p>
               <div>
                 <p>{item.subtitle1}</p>

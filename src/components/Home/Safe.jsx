@@ -29,8 +29,8 @@ const Safe = () => {
   return (
     <div className=" md:mx-24 mx-4 md:flex block items-center gap-14 md:pt-20 pt-[38rem]">
       <div>
-        <p className="text-[16px] font-medium text-black bg-[#09124228] py-2 px-2 w-fit  border-l-[6px] border-yellow-500"> What We Do</p>
-      <h1 className=" text-[42px] font-bold">Safe & Reliable Cargo Solutions</h1>
+        <p className="text-[16px] font-medium text-black md:mt-0 mt-12 bg-[#09124228] py-2 px-2 w-fit  border-l-[6px] border-yellow-500"> What We Do</p>
+      <h1 className=" md:text-[42px] text-[32px] font-bold ">Safe & Reliable Cargo Solutions</h1>
       </div>
     <div className=" grid md:grid-cols-2 grid-cols-1 gap-24 md:mt-0 mt-11">
     {
@@ -38,8 +38,8 @@ const Safe = () => {
         <div className=" flex items-center gap-12">
         <img src={item.img} alt="" />
         <div>
-          <h1 className=" text-[23px] font-semibold">{item.title}</h1>
-          <h1 className=" text-[16px] font-medium">{item.subtitle}.</h1>
+          <h1 className=" md:text-[23px] text-[16px] font-semibold">{item.title}</h1>
+          <h1 className=" md:text-[16px] text-[12px] font-medium">{item.subtitle}.</h1>
         </div>
       </div>
       ))

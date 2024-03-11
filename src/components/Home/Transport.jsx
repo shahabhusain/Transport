@@ -38,14 +38,14 @@ const Transport = () => {
   ];
   return (
     <div className=" md:mx-24 mx-4 md:mt-80 mt-[35rem] flex flex-col items-center justify-center">
-      <h1 className=" text-[42px] font-bold text-center">
+      <h1 className=" md:text-[42px] text-[33px] font-bold text-center">
         Transport Across th World
       </h1>
       <div className=" md:flex block items-center gap-11 mt-24">
         {transportItem.map((item) => (
           <div className=" relative text-white">
             <img src={item.img} alt="" />
-            <div className=" absolute top-[14rem] left-[2.5rem] flex flex-col items-center justify-center">
+            <div className=" absolute md:top-[14rem] top-[20rem] md:left-[2.5rem] left-[5rem] flex flex-col items-center justify-center">
               <h1 className=" text-[16px] font-medium">{item.title}</h1>
               <p className=" text-[12px] font-normal text-[#FFB629] ">
                 {item.subtitle}
@@ -54,7 +54,7 @@ const Transport = () => {
           </div>
         ))}
       </div>
-      <button className=" bg-[#1F2A69] text-white py-3 px-6 mt-24">More Work</button>
+      <button className=" bg-[#1F2A69] text-white py-3 px-6 md:mt-24 mt-6">More Work</button>
     </div>
   );
 };

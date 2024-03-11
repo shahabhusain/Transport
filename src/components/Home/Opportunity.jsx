@@ -35,7 +35,7 @@ const Opportunity = () => {
         <h2 className="text-[16px] font-medium text-black bg-[#09124228] py-2 px-2 w-fit  border-l-[6px] border-yellow-500">
           Why Choose
         </h2>
-        <h1 className=" text-[34px] font-bold">
+        <h1 className=" md:text-[34px] text-[24px] font-bold">
           We create opportunity to reach potential
         </h1>
         <p>
@@ -43,7 +43,7 @@ const Opportunity = () => {
           foster collaborative thinking to further the overall value
           proposition.{" "}
         </p>
-         <div className=" grid grid-cols-2 gap-4">
+         <div className=" grid grid-cols-1 gap-4">
          {
           opporItem.map((item)=>(
             <div className=" flex items-center gap-3">

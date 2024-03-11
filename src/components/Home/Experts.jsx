@@ -36,7 +36,7 @@ const Experts = () => {
             <img src={item.img} alt="" />
             <div className=" bg-[#1C1F35] py-4 pr-[12rem] w-fit">
               <div className=" pl-4">
-                <h1 className=" text-[22px] font-bold text-white">
+                <h1 className=" md:text-[22px] text-[18px] whitespace-nowrap font-bold text-white">
                   {item.title}
                 </h1>
                 <h2 className=" text-white">{item.subtitle}</h2>

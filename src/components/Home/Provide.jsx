@@ -4,12 +4,12 @@ const Provide = () => {
   return (
     <div className="relative mt-28">
       <div className="back1 py-56 "></div>
-      <div className="md:mx-56 mx-4 md:flex block absolute top-[14rem] items-center justify-between bg-white px-12 py-7">
+      <div className="md:mx-56 mx-4 md:flex block absolute top-[14rem] items-center justify-between bg-white md:px-12 px-4 py-7">
         <div className=" flex flex-col gap-4">
           <h1 className="text-[16px] font-medium text-black bg-[#09124228] py-2 px-2 w-fit  border-l-[6px] border-yellow-500">
             Why US
           </h1>
-          <h2 className=" text-[33px] font-bold">
+          <h2 className=" md:text-[33px] text-[25px] font-bold">
             We provide full range global logistics solution
           </h2>
           <p className=" text-[#666C89]">
@@ -27,7 +27,7 @@ const Provide = () => {
             <h1 className=" text-[19px] font-medium">Optimized Travel Cost</h1>
           </div>
         </div>
-        <img src={provide} alt="" />
+        <img className=" md:mt-0 mt-5" src={provide} alt="" />
       </div>
       <div></div>
     </div>

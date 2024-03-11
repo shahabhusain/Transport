@@ -50,7 +50,7 @@ const Client = () => {
   return (
    <div className=" w-[80%] mx-auto  mt-12">
     <h1 className="text-[16px] font-medium text-black bg-[#09124228] py-2 px-2 w-fit  border-l-[6px] border-yellow-500 my-4">Testimonial</h1>
-    <h2 className=" text-[33px] font-bold">What Our Customer Say</h2>
+    <h2 className=" md:text-[33px] text-[25px] font-bold">What Our Customer Say</h2>
      <div className="slider-container mt-16">
       <Slider {...settings}>
         <div className="bg-[#F4F4F4] py-3 px-4">
@@ -58,11 +58,11 @@ const Client = () => {
             <div className="flex items-center gap-3">
               <img src={men} alt="" />
               <div>
-                <h1 className=" text-[22px] font-bold">Kathleen Smith</h1>
-                <h1>Fuel Company</h1>
+                <h1 className=" md:text-[22px] text-[16px] font-bold">Kathleen Smith</h1>
+                <h1 className="  text-[10px] md:text-[15px]">Fuel Company</h1>
               </div>
             </div>
-            <img src={icon} alt="" />
+            <img className="" src={icon} alt="" />
           </div>
           <p className=" text-[#666C89] italic mt-4">Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
           <ReactStars
@@ -77,8 +77,8 @@ const Client = () => {
             <div className="flex items-center gap-3">
               <img src={men} alt="" />
               <div>
-                <h1 className="text-[22px] font-bold text-white">Kathleen Smith</h1>
-                <h1 className=" text-white">Fuel Company</h1>
+              <h1 className=" md:text-[22px] text-white text-[16px] font-bold">Kathleen Smith</h1>
+                <h1 className="  text-[10px] text-white md:text-[15px]">Fuel Company</h1>
               </div>
             </div>
             <img src={icon} alt="" />
@@ -97,8 +97,8 @@ const Client = () => {
             <div className="flex items-center gap-3">
               <img src={men} alt="" />
               <div>
-                <h1 className="text-[22px] font-bold ">Kathleen Smith</h1>
-                <h1 >Fuel Company</h1>
+              <h1 className=" md:text-[22px] text-[16px] font-bold">Kathleen Smith</h1>
+                <h1 className="  text-[10px] md:text-[15px]">Fuel Company</h1>
               </div>
             </div>
             <img src={icon} alt="" />

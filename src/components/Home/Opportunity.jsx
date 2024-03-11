@@ -29,9 +29,9 @@ const Opportunity = () => {
     },
   ]
   return (
-    <div className=" flex items-center justify-center mt-32 bg-[#F4F4F4] ">
-      <img className=" w-[50%]" src={opportunity} alt="" />
-      <div className=" w-[50%] mx-12 flex flex-col gap-5">
+    <div className=" flex flex-col md:flex-row items-center justify-center mt-32 bg-[#F4F4F4] py-4 ">
+      <img className=" md:w-[50%] w-[80%] " src={opportunity} alt="" />
+      <div className=" md:w-[50%] mx-12 flex md:mt-0 mt-12 flex-col gap-5">
         <h2 className="text-[16px] font-medium text-black bg-[#09124228] py-2 px-2 w-fit  border-l-[6px] border-yellow-500">
           Why Choose
         </h2>

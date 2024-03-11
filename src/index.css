@@ -83,53 +83,6 @@
 }
 
 
-.slick-arrow:before {
-    color: red;
-    font-size: 50px;
-}
-
-.slick-prev {
-    top: -60px;
-    left: 800px;
-}
-
-.slick-next {
-    right: 40px;
-    top: -60px;
-}
-
-.slick-arrow {
-    padding: 10px;
-    font-size: 30px;
-}
-
-#blogs-slider .slick-next {
-    right: 58px;
-    top: -60px;
-}
-
-#blogs-slider .slick-prev {
-    top: -60px;
-    left: 1350px;
-}
-
-@media only screen and (max-width: 600px) {
-    .slick-arrow:before {
-        display: none;
-    }
-
-    .slick-next {
-        right: 0px;
-        top: 0px;
-        display: none;
-    }
-    
-    .slick-next {
-        right: 0px;
-        top: 0px;
-        display: none;
-    }  
-}
 
 
 .container{

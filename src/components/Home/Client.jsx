@@ -18,8 +18,8 @@ const Client = () => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToShow: 1,
+          slidesToScroll: 1,
           infinite: true,
           dots: true,
         },
@@ -27,9 +27,9 @@ const Client = () => {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1,
         },
       },
       {
@@ -48,7 +48,7 @@ const Client = () => {
   };
 
   return (
-   <div className="mx-72 mt-12">
+   <div className=" w-[80%] mx-auto  mt-12">
     <h1 className="text-[16px] font-medium text-black bg-[#09124228] py-2 px-2 w-fit  border-l-[6px] border-yellow-500 my-4">Testimonial</h1>
     <h2 className=" text-[33px] font-bold">What Our Customer Say</h2>
      <div className="slider-container mt-16">

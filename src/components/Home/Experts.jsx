@@ -30,7 +30,7 @@ const Experts = () => {
         </h2>
         <h1 className=" text-[44px] font-bold text-center">Meet Expert Team</h1>
       </div>
-      <div className=" flex items-center gap-14 mt-16">
+      <div className=" flex flex-col md:flex-row items-center gap-14 mt-16">
         {expertItem.map((item) => (
           <div className="">
             <img src={item.img} alt="" />

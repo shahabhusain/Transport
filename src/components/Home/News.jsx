@@ -42,7 +42,7 @@ const News = () => {
       
         {newItem.map((item) => (
           <>
-          <div className=" flex items-center gap-12 mt-16">
+          <div className=" flex flex-col md:flex-row items-center gap-12 mt-16">
             <div className=" flex gap-4 ">
               <img src={item.img} alt="" />
               <div className=" flex gap-5">
@@ -52,7 +52,7 @@ const News = () => {
                 <div className=" w-[2px] h-full bg-[#c4c3c3]"></div>
               </div>
             </div>
-            <div className=" flex flex-col gap-4 w-[40%]">
+            <div className=" flex flex-col gap-4 md:w-[40%]">
               <h1 className=" text-[33px] font-medium">{item.title}</h1>
               <p>{item.subtitle}</p>
               <div>

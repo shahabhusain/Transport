@@ -20,8 +20,8 @@ const GetInTouch = () => {
   ];
   return (
     <div className="  bg-[#172363] pt-12 w-full mt-32">
-      <div className="flex items-center justify-around mx-24">
-        <div className=" w-[50%] flex flex-col gap-3">
+      <div className="flex flex-col md:flex-row md:mx-24 mx-12">
+        <div className=" md:w-[50%] flex flex-col gap-3">
           <h2 className="text-[16px] font-medium text-black bg-[#09124228] py-2 px-2 w-fit  border-l-[6px] border-yellow-500 text-white">
             Contact
           </h2>
@@ -42,7 +42,7 @@ const GetInTouch = () => {
           ))}
         </div>
         </div>
-        <div className=" flex flex-col gap-3 w-[50%]">
+        <div className=" flex flex-col gap-3 md:w-[50%]">
           <div className=" grid grid-cols-2 gap-3">
             <input
               className=" bg-transparent border-[2px] border-[#4E5683] text-white py-3 px-4 rounded-sm"

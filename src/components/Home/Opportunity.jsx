@@ -43,7 +43,7 @@ const Opportunity = () => {
           foster collaborative thinking to further the overall value
           proposition.{" "}
         </p>
-         <div className=" grid grid-cols-1 gap-4">
+         <div className=" grid md:grid-cols-2 grid-cols-1 gap-4">
          {
           opporItem.map((item)=>(
             <div className=" flex items-center gap-3">
